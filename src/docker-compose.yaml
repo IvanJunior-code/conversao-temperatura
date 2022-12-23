@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  conversao-temperatura:
+    container_name: app
+    image: ivanjuniordocker/conversao-temperatura:v2
+    ports:
+      - 8080:8080
